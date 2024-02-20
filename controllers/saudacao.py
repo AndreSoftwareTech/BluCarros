@@ -26,8 +26,8 @@ def descritivo():
     print("as opções abaixo represantam as suas possibilidades de escolha")
     print('''
 1- anuciar
-2- compra 
-3- fipe
+2- comprar 
+3- consultar fipe
           ''')
 
 

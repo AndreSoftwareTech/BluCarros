@@ -7,10 +7,11 @@ def carro(vendedor):
         arquivo.write(str(vendedor)+"\n")
 
 
+
         
 def criar_relatorio():
-    pessoas = []
-    apartamentos = []
+    veiculo = []
+    pessoa = []
 
     # Solicita o nome do cliente a ser pesquisado
     cliente_find = input("Digite o nome do cliente a ser pesquisado: ")
@@ -18,8 +19,8 @@ def criar_relatorio():
     # Lê o arquivo de pessoas e armazena os dados em uma lista
     with open('cliente.txt', 'r') as arquivo_pessoas:
         for linha in arquivo_pessoas:
-            pessoa = eval(linha.strip())
-            pessoas.append(pessoa)
+            pessoas = eval(linha.strip())
+            pessoas.apend(pessoas)
 
     # Procura o cliente especificado
     cliente_encontrado = None
